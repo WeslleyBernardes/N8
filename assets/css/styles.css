@@ -1,0 +1,159 @@
+/* Estilos */
+@font-face {
+   font-family: helvetica-nova;
+   src: url('./fonts/helvetica-ultra-light.otf');
+ }
+@font-face {
+   font-family: Roboto-Light;
+   src: url('./fonts/Roboto-Light_0.ttf');
+ }
+ @font-face {
+   font-family: Roboto-Regular;
+   src: url('./fonts/Roboto-Regular_0.ttf');
+ }
+
+
+body {
+
+}
+header{
+   padding-top: 50px;
+   background: url(../images/index-image.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   width: 100%;
+   min-height: 100vh;
+}
+
+
+header .navbar-brand {
+  max-width: 200px;
+}
+.header-text {
+   float: left;
+   margin-top: 20%;
+   max-width: 400px;
+}
+.header-text h1{
+   text-transform: uppercase;
+   font-family:  helvetica-nova;
+   text-align:left;
+   font-size: 2.5em;
+   color: #fff;
+}
+.header-text h1 span{
+
+   font-size: 2.37em;
+}
+
+
+
+.div-cadastro{
+   background: #28ABE3;
+}
+.cadastro {
+   font-family: Roboto-Light;
+}
+.cadastro h1{
+   margin-top: 50px;
+   font-family: Roboto-Light;
+   color: #fff;
+}
+.cadastro form{
+   padding: 50px;
+   margin: 25px;
+}
+.cadastro form label {
+   color: #fff;
+}
+.cadastro form input {
+   color: #fff;
+   background: none;
+   border-radius: 0;
+   border: none;
+   border-bottom: 1px solid #fff;
+}
+.cadastro form input:hover, .cadastro form input:focus {
+   color: #fff;
+   background: none;
+   border: none;
+   border-bottom: 1px solid #fff;
+}
+.cadastro button {
+   font-size: 2em;
+   font-family: Roboto-Light;
+   background: #011E48;
+   color: #28ABE3;
+   border: none;
+   border-radius: 0;
+   width: 100%;
+   max-width: 400px;
+   transition: 1s all;
+   margin-top: 50px;
+}
+.cadastro button:hover {
+   background: #28ABE3 ;
+   color: #011E48;
+   border: 1px solid #011E48;
+   transition: 1s all;
+}
+.lista-cadastro{
+   margin: 30px;
+}
+.lista-cadastro h1{
+   color: #28ABE3;
+   padding: 50px;
+   margin: 25px;
+   font-family: Roboto-Light;
+   font-size: 3em;
+
+}
+.lista-cadastro table{
+   border: none;
+   border-style:hidden ;
+   margin-bottom: 100px;
+   color: #888;
+}
+
+.lista-cadastro table.table-bordered > thead > tr > th{
+   border:1px solid #28ABE3;
+}
+.lista-cadastro table.table-bordered > tbody > tr > td{
+   border:1px solid #28ABE3;
+}
+.lista-cadastro table.table-bordered > tbody > tr > th{
+   border:1px solid #28ABE3;
+}
+/* .lista-cadastro table td {
+   padding: 1rem;
+   border-bottom: 3px solid black;
+ }
+.lista-cadastro table td, th {
+   padding: 1rem;
+   border-bottom: 3px solid #28ABE3;
+   border-right: 3px solid #28ABE3
+ } */
+
+footer{
+   height: 400px;
+   width: 100%;
+   background: url('../images/rodape-desktop.jpg');
+}
+footer ul {
+   margin: 60px 0;
+   list-style: none;
+   color: #fff;
+}
+footer li {
+   font-size: 1.5em;
+   font-family: 'Roboto-Light';
+   margin: 10px;
+}
+
+
+@media only screen and (max-width: 991px) {
+   header .navbar-collapse .navbar-nav{
+      background: #28ABE3;
+   }
+
+ }
