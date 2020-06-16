@@ -116,13 +116,36 @@ header .navbar-brand {
 }
 
 .lista-cadastro table.table-bordered > thead > tr > th{
-   border:1px solid #28ABE3;
+   border-top: none;
+   border-left: none;
+   border-bottom:1px solid #28ABE3;
+   border-right:1px solid #28ABE3;
+}
+.lista-cadastro table.table-bordered > thead > tr > th:last-child{
+   border: none;
+   border-bottom:1px solid #28ABE3;
 }
 .lista-cadastro table.table-bordered > tbody > tr > td{
-   border:1px solid #28ABE3;
+   border-bottom:1px solid #28ABE3;
+   border-right: 1px solid #28ABE3;
+}
+.lista-cadastro table.table-bordered > tbody > tr > td:last-child{
+   border-right: none;
 }
 .lista-cadastro table.table-bordered > tbody > tr > th{
-   border:1px solid #28ABE3;
+   border-left: none;
+   border-bottom:1px solid #28ABE3;
+   border-right:1px solid #28ABE3;
+}
+.lista-cadastro table.table-bordered > tbody > tr > th:last-child{
+   border-right:none;
+   border: none;
+}
+.lista-cadastro table.table-bordered > tbody > tr:last-child >td {
+   border-bottom: none;
+}
+.lista-cadastro table.table-bordered > tbody > tr:last-child >th {
+   border-bottom: none;
 }
 /* .lista-cadastro table td {
    padding: 1rem;
