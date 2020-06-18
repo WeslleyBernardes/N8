@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href='./assets/css/styles.css' />
-</head>
-<body>
-    
-      <header id="header">
+<header id='header'>
         <nav class="navbar navbar-expand-lg navbar-dark  static-top">
           <div class="container">
             <a class="navbar-brand order-2" href="#">
@@ -33,15 +21,15 @@
             <div class="collapse navbar-collapse order-3" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link navScroll" href="#cadastro">Cadastro
+                  <a class="nav-link" href="#">Cadastro
                         <span class="sr-only">(current)</span>
                       </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navScroll" href="#lista-cadastro">Lista de cadastro</a>
+                  <a class="nav-link" href="#">Lista de cadastro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navScroll" href="#sobre">Sobre mim</a>
+                  <a class="nav-link" href="#">Sobre mim</a>
                 </li>
                 
               </ul>
@@ -61,7 +49,7 @@
           <div class="row justify-content-center">
             <div class="col-12 col-xl-8 ">
               <section class="cadastro">
-                <h1 id="cadastro" class="text-center">Cadastro</h1>
+                <h1 class="text-center">Cadastro</h1>
                 <form>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nome</label>
@@ -96,7 +84,7 @@
           <div class="row justify-content-center">
             <div class="col-12 col col-xl-10 ">
               <section class="lista-cadastro">
-                <h1 id="lista-cadastro" class="text-center">Lista de Cadastro</h1>
+                <h1 class="text-center">Lista de Cadastro</h1>
                 <div class="table-responsive div-table">
                   <table class="table table-bordered table-hover text-center">
                     <thead>
@@ -208,30 +196,3 @@
           </div>
         </div>
       </div>
-      <a href="#header" class="btn-top navScroll"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><defs><style>.cls-1{opacity:0.5;}.cls-2{fill:#29abe2;}.cls-3{fill:#fff;}</style></defs><title>topo-pag0</title><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><g class="cls-1"><circle class="cls-2" cx="25" cy="25" r="25"/><path class="cls-3" d="M40.42,30a1.56,1.56,0,0,1-1.2-.56L25,12.58,10.77,29.45a1.56,1.56,0,0,1-2.39-2L23.81,9.15a1.61,1.61,0,0,1,2.39,0L41.62,27.44A1.56,1.56,0,0,1,40.42,30Z"/><path class="cls-3" d="M40.42,41.41a1.56,1.56,0,0,1-1.2-.56L25,24,10.77,40.85a1.56,1.56,0,0,1-2.39-2L23.81,20.55a1.61,1.61,0,0,1,2.39,0L41.62,38.84a1.56,1.56,0,0,1-1.19,2.57Z"/></g></g></g></svg> </a>
-      <footer>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-xl-6 text-center">
-              <ul id="sobre" class="">
-                <li>Fulano Beltrano de Oliveira da Silva</li>
-                <li>Fulanobos@gmail.com</li>
-                <li>(31) 9 9666-1111</li>
-                <li>Faculdade de Belo Horizonte</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
-			  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
-			  crossorigin="anonymous"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="./assets/js/scripts.js"></script>
-
-  </body>
-</html>

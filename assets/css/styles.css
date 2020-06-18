@@ -48,13 +48,6 @@ header .navbar-brand {
 .navbar-toggler {
    border: none;
 }
-.navbar-toggler-icon{
-   /* color:red; */
-}
-
-
-
-
 
 .div-cadastro{
    background: #28ABE3;
@@ -181,6 +174,14 @@ header .navbar-brand {
    border-bottom: 3px solid #28ABE3;
    border-right: 3px solid #28ABE3
  } */
+
+ .btn-top{
+   width: 50px;
+   height: 50px;
+   position: fixed;
+   bottom: 25px;
+   right: 25px;
+ }
 
 footer{
    height: 400px;
