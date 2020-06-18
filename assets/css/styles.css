@@ -68,7 +68,7 @@ header .navbar-brand {
    color: #fff;
 }
 .cadastro form{
-   padding: 50px;
+   padding: 50px 0;
    margin: 25px;
 }
 .cadastro form label {
