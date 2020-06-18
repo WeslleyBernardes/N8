@@ -24,7 +24,14 @@ header{
    width: 100%;
    min-height: 100vh;
 }
-
+header .navbar-nav li:first-of-type{
+   list-style: none;
+}
+header .navbar-nav li{
+   color: white;
+   list-style: disc;
+   margin-left: 15px;
+}
 
 header .navbar-brand {
   max-width: 200px;
@@ -175,7 +182,16 @@ header .navbar-brand {
    border-right: 3px solid #28ABE3
  } */
 
- .btn-top{
+ .navScroll{
+    
+ }
+ .btn-top.active{
+    transition: 2s all;
+    display: block;
+ }
+ .btn-top {
+   transition: 2s all;
+   display: none;
    width: 50px;
    height: 50px;
    position: fixed;

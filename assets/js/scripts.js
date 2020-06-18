@@ -10,6 +10,20 @@ $(document).ready(function (){
             scrollTop: targetOffset - 100
         }, 500);
     });
+    var posicaoInicial = $('#header').position().top;
+    $(document).scroll(function () { 
+        var posicaoScroll = $(document).scrollTop();
+        
+        
+         if (posicaoScroll > 100 ){
+
+            console.log(posicaoScroll);
+            $('.btn-top').addClass('active');
+         }else {
+            
+            $('.btn-top').removeClass('active');
+         };
+    })
 
     colorSanduiche();
 });
