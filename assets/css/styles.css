@@ -240,7 +240,7 @@ footer li {
       float: left;
       margin-top: -115px;
       margin-left: -20px;
-      max-width: 300px;
+      max-width: 80%;
    }
    .navbar-toggler svg g {
       fill:#fff;
