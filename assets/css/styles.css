@@ -209,11 +209,11 @@ footer li {
       padding: 10px;
    }
    .header-text h1{
-      text-transform: uppercase;
-      font-family:  helvetica-nova;
-      text-align:left;
       font-size: 1em;
-      color: #fff;
+   }
+   .lista-cadastro h1{
+      font-size: 1.5em;
+   
    }
  }
  @media only screen and (max-width: 750px) {
