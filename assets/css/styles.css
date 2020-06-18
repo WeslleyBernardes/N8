@@ -45,6 +45,14 @@ header .navbar-brand {
 
    font-size: 2.37em;
 }
+.navbar-toggler {
+   border: none;
+}
+.navbar-toggler-icon{
+   /* color:red; */
+}
+
+
 
 
 
@@ -97,6 +105,23 @@ header .navbar-brand {
    border: 1px solid #011E48;
    transition: 1s all;
 }
+
+.tab-content {
+   width: 100%;
+}
+.div-tabs {
+   display: none;
+}
+.lista-cadastro .nav-item .active{
+   border-top: 2px solid #28ABE3 ;
+   border-right: 2px solid #28ABE3 ;
+   border-bottom: none ;
+   border-left: 2px solid #28ABE3 ;
+}
+.lista-cadastro .tab-content {
+   border: 2px solid #28ABE3 ;
+}
+
 .lista-cadastro{
    margin: 30px;
 }
@@ -161,22 +186,71 @@ footer{
    height: 400px;
    width: 100%;
    background: url('../images/rodape-desktop.jpg');
+   background-color: red;;
 }
 footer ul {
    margin: 60px 0;
+   padding: 0;
    list-style: none;
    color: #fff;
 }
 footer li {
    font-size: 1.5em;
    font-family: 'Roboto-Light';
-   margin: 10px;
+   margin: 10px 0 0 10px; 
+   text-align: center;
 }
 
 
 @media only screen and (max-width: 991px) {
+   
    header .navbar-collapse .navbar-nav{
       background: #28ABE3;
+      padding: 10px;
    }
 
  }
+ @media only screen and (max-width: 750px) {
+   header{
+      background: url(../images/index-image-mobile.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      min-height: 100vh;
+   }
+
+   footer{
+      background: url('../images/rodape-mobile.jpg');
+   }
+   .lista-cadastro .div-table {
+      display: none;
+   }
+   .div-tabs {
+      display: block;
+   }
+   footer ul {
+      margin: 120px 0;
+      padding: 0;
+      list-style: none;
+      color: #fff;
+  
+   }
+}
+@media only screen and (max-width: 650px) {
+   .navbar-collapse {
+      float: left;
+      margin-top: -115px;
+      margin-left: -20px;
+      max-width: 300px;
+   }
+   .navbar-toggler svg g {
+      fill:#fff;
+   }
+   .navbar-collapse ul{
+      
+      padding-top: 150px !important;
+      padding-bottom: 50px !important;
+      padding-left: 20px !important;
+      
+   }
+
+}
