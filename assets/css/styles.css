@@ -232,6 +232,9 @@ footer li {
       font-size: 1.5em;
    
    }
+   header .navbar-nav li{
+      list-style: none;
+   }
  }
  @media only screen and (max-width: 750px) {
    header{
@@ -240,6 +243,7 @@ footer li {
       background-size:cover;
       min-height: 100vh;
    }
+   
 
    footer{
       background: url('../images/rodape-mobile.jpg');
@@ -265,6 +269,7 @@ footer li {
       margin-left: -20px;
       max-width: 80%;
    }
+
    .navbar-toggler svg g {
       fill:#fff;
    }
